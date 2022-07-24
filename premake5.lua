@@ -32,32 +32,32 @@ project "GLFW"
     }
     filter "system:linux"
         pic "On"
-
+	architecture "ARM"
         systemversion "latest"
         staticruntime "On"
 
         files
         {
-			"src/egl_context.h",
-			"src/egl_context.c",
-			"src/glx_context.h",
-			"src/glx_context.c",
-			"src/linux_joystick.h",
-			"src/linux_joystick.c",
-			"src/posix_time.h",
-			"src/posix_time.c",
-			"src/posix_module.c",
-			"src/posix_poll.c",
-			"src/x11_init.c",
-			"src/x11_platform.h",
-			"src/x11_monitor.c",
-			"src/x11_window.c",
-			"src/xkb_unicode.h",
-			"src/xkb_unicode.c",
-			"src/posix_thread.h",
-			"src/posix_thread.c",
-			"src/osmesa_context.c",
-			"src/osmesa_context.h"
+	    "src/egl_context.h",
+	    "src/egl_context.c",
+	    "src/glx_context.h",
+	    "src/glx_context.c",
+	    "src/linux_joystick.h",
+	    "src/linux_joystick.c",
+	    "src/posix_time.h",
+	    "src/posix_time.c",
+	    "src/posix_module.c",
+	    "src/posix_poll.c",
+	    "src/x11_init.c",
+	    "src/x11_platform.h",
+	    "src/x11_monitor.c",
+	    "src/x11_window.c",
+	    "src/xkb_unicode.h",
+	    "src/xkb_unicode.c",
+	    "src/posix_thread.h",
+	    "src/posix_thread.c",
+	    "src/osmesa_context.c",
+	    "src/osmesa_context.h"
         }
 
         defines
