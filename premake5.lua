@@ -32,7 +32,7 @@ project "GLFW"
     }
     filter "system:linux"
         pic "On"
-	architecture "ARM"
+        architecture "ARM"
         systemversion "latest"
         staticruntime "On"
 
